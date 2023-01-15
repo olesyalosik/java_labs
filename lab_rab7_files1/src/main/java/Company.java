@@ -41,9 +41,12 @@
 //        2. Необходимо вести статистику работы приложения в файле logfile.txt. Данные должны накапливаться. Формат данных: дата и время запуска пиложения; текст запроса; количество н
 //Лосик Олеси, 7 группаmaccosmetic@
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
 import java.io.IOException;
 import java.util.Arrays;
 
+@JsonAutoDetect
 public class Company {
     private String name;
     private String shortTitle; ///Important
@@ -57,6 +60,8 @@ public class Company {
     private String branch; ///Important
     private String activity; ///Important
     private String link;
+
+    public Company(){}
 
     public String getName() {
         return name;
@@ -155,27 +160,27 @@ public class Company {
 
 
     public String toJSONString() {
-        return "\"Company\": \n{ \n" +
-                "\"name\":\"" + name + "\" \n" +
-                "\" shortTitle\":\"" + shortTitle + "\" \n" +
-                " \"dateUpdate\":\"" + dateUpdate + "\" \n" +
-                " \"address\":\"" + address + "\" \n" +
-                " \"dateFoundation\":\"" + dateFoundation + "\"\n" +
-                " \"countEmployees\":\"" + countEmployees + "\"\n" +
-                " \"auditor\":\"" + auditor + "\"\n" +
-                " \"phone\":\"" + phone + "\"\n" +
-                " \"email\":\"" + email + "\"\n" +
-                " \"branch\":\"" + branch + "\"\n" +
-                " \"activity\":\"" + activity + "\"\n" +
-                " \"link\":\"" + link + "\" \n" +
-                "}";
+        return "{ \n\"Company\": \n{ \n" +
+                "\"name\":\"" + name + "\",\n" +
+                "\" shortTitle\":\"" + shortTitle + "\",\n" +
+                " \"dateUpdate\":\"" + dateUpdate + "\",\n" +
+                " \"address\":\"" + address + "\",\n" +
+                " \"dateFoundation\":\"" + dateFoundation + "\",\n" +
+                " \"countEmployees\":\"" + countEmployees + "\",\n" +
+                " \"auditor\":\"" + auditor + "\",\n" +
+                " \"phone\":\"" + phone + "\",\n" +
+                " \"email\":\"" + email + "\",\n" +
+                " \"branch\":\"" + branch + "\",\n" +
+                " \"activity\":\"" + activity + "\",\n" +
+                " \"link\":\"" + link + "\"\n" +
+                "}\n}";
     }
     public String toXMLString() {
         return "<Company> \n" +
                 "<name>" + name + "</name> \n" +
                 "<shortTitle>" + shortTitle + "</shortTitle> \n" +
                 "<dateUpdate>" + dateUpdate + "</dateUpdate> \n" +
-                "<address>" + address + "/<address> \n" +
+                "<address>" + address + "</address> \n" +
                 "<dateFoundation>" + dateFoundation + " </dateFoundation> \n" +
                 "<countEmployees>" + countEmployees + "</countEmployees> \n" +
                 "<auditor>" + auditor + "</auditor> \n" +

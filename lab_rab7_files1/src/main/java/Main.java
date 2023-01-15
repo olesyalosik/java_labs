@@ -66,7 +66,9 @@ public class Main {
         {
             if(c.getShortTitle().equalsIgnoreCase(request))
             {
-                Readers.souTCompany(c);
+                //Readers.souTCompany(c);
+                Readers.writeJson(c);
+                Readers.writeXml(c);
                 tmp++;
             }
         }
@@ -183,7 +185,7 @@ public class Main {
 
         int counter = 0;
 
-        System.out.println("Введите имя компании для поиска: ");
+        System.out.println("Введите имя компании для поиска:");
         String shortname =  Readers.sysIn.readLine().toLowerCase();
         System.out.println("Результаты");
         counter=GetByShortTitle(shortname, companiesFile);
@@ -232,6 +234,6 @@ public class Main {
 
         Readers.loggerTxt.close();
         Readers.xmlWrite.close();
-        Readers.jsonWrite.close();
+        //Readers.jsonWrite.close();
     }
     }

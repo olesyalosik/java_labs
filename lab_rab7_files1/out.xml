@@ -1,104 +1,18 @@
 <!--short title-->
  
-<Company> 
-<name>SPLAT</name> 
-<shortTitle>SPLAT</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>FRANce/<address> 
-<dateFoundation>2002 </dateFoundation> 
-<countEmployees>3765</countEmployees> 
-<auditor>KUKU CHACHA</auditor> 
-<phone>KUKU CHACHA</phone> 
-<email>KUKU CHACHA</email> 
-<branch>KUKU CHACHA</branch> 
-<activity>KUKU CHACHA</activity> 
-<link>KUKU CHACHA</link> 
-</Company>
- 
 <!--branch-->
- 
-<Company> 
-<name>KYLie</name> 
-<shortTitle>KYLie</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>GERMAny/<address> 
-<dateFoundation>1999 </dateFoundation> 
-<countEmployees>18765</countEmployees> 
-<auditor>Kylie Jenner</auditor> 
-<phone>Kylie Jenner</phone> 
-<email>Kylie Jenner</email> 
-<branch>Kylie Jenner</branch> 
-<activity>Kylie Jenner</activity> 
-<link>Kylie Jenner</link> 
-</Company>
- 
-<Company> 
-<name>SPLAT</name> 
-<shortTitle>SPLAT</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>FRANce/<address> 
-<dateFoundation>2002 </dateFoundation> 
-<countEmployees>3765</countEmployees> 
-<auditor>KUKU CHACHA</auditor> 
-<phone>KUKU CHACHA</phone> 
-<email>KUKU CHACHA</email> 
-<branch>KUKU CHACHA</branch> 
-<activity>KUKU CHACHA</activity> 
-<link>KUKU CHACHA</link> 
-</Company>
- 
-<Company> 
-<name>ZIAJA</name> 
-<shortTitle>ZIAJA</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>POland/<address> 
-<dateFoundation>2003 </dateFoundation> 
-<countEmployees>4567</countEmployees> 
-<auditor>ANYA JOY</auditor> 
-<phone>ANYA JOY</phone> 
-<email>ANYA JOY</email> 
-<branch>ANYA JOY</branch> 
-<activity>ANYA JOY</activity> 
-<link>ANYA JOY</link> 
-</Company>
  
 <!--activity-->
  
-<Company> 
-<name>MAC</name> 
-<shortTitle>MAC</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>USA/<address> 
-<dateFoundation>1993 </dateFoundation> 
-<countEmployees>56437</countEmployees> 
-<auditor> TOm FRank</auditor> 
-<phone> TOm FRank</phone> 
-<email> TOm FRank</email> 
-<branch> TOm FRank</branch> 
-<activity> TOm FRank</activity> 
-<link> TOm FRank</link> 
-</Company>
+<!--date of foundation-->
  
-<Company> 
-<name>NYX</name> 
-<shortTitle>NYX</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>UK/<address> 
-<dateFoundation>1995 </dateFoundation> 
-<countEmployees>65785</countEmployees> 
-<auditor> HElix Fox</auditor> 
-<phone> HElix Fox</phone> 
-<email> HElix Fox</email> 
-<branch> HElix Fox</branch> 
-<activity> HElix Fox</activity> 
-<link> HElix Fox</link> 
-</Company>
+<!--employees-->
  
 <Company> 
 <name>7DAYS</name> 
 <shortTitle>7DAYS</shortTitle> 
 <dateUpdate>2022</dateUpdate> 
-<address>USA/<address> 
+<address>USA</address> 
 <dateFoundation>1987 </dateFoundation> 
 <countEmployees>9786</countEmployees> 
 <auditor>MArko Puf</auditor> 
@@ -113,116 +27,7 @@
 <name>KYLie</name> 
 <shortTitle>KYLie</shortTitle> 
 <dateUpdate>2022</dateUpdate> 
-<address>GERMAny/<address> 
-<dateFoundation>1999 </dateFoundation> 
-<countEmployees>18765</countEmployees> 
-<auditor>Kylie Jenner</auditor> 
-<phone>Kylie Jenner</phone> 
-<email>Kylie Jenner</email> 
-<branch>Kylie Jenner</branch> 
-<activity>Kylie Jenner</activity> 
-<link>Kylie Jenner</link> 
-</Company>
- 
-<Company> 
-<name>SPLAT</name> 
-<shortTitle>SPLAT</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>FRANce/<address> 
-<dateFoundation>2002 </dateFoundation> 
-<countEmployees>3765</countEmployees> 
-<auditor>KUKU CHACHA</auditor> 
-<phone>KUKU CHACHA</phone> 
-<email>KUKU CHACHA</email> 
-<branch>KUKU CHACHA</branch> 
-<activity>KUKU CHACHA</activity> 
-<link>KUKU CHACHA</link> 
-</Company>
- 
-<Company> 
-<name>ZIAJA</name> 
-<shortTitle>ZIAJA</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>POland/<address> 
-<dateFoundation>2003 </dateFoundation> 
-<countEmployees>4567</countEmployees> 
-<auditor>ANYA JOY</auditor> 
-<phone>ANYA JOY</phone> 
-<email>ANYA JOY</email> 
-<branch>ANYA JOY</branch> 
-<activity>ANYA JOY</activity> 
-<link>ANYA JOY</link> 
-</Company>
- 
-<!--date of foundation-->
- 
-<Company> 
-<name>KYLie</name> 
-<shortTitle>KYLie</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>GERMAny/<address> 
-<dateFoundation>1999 </dateFoundation> 
-<countEmployees>18765</countEmployees> 
-<auditor>Kylie Jenner</auditor> 
-<phone>Kylie Jenner</phone> 
-<email>Kylie Jenner</email> 
-<branch>Kylie Jenner</branch> 
-<activity>Kylie Jenner</activity> 
-<link>Kylie Jenner</link> 
-</Company>
- 
-<Company> 
-<name>SPLAT</name> 
-<shortTitle>SPLAT</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>FRANce/<address> 
-<dateFoundation>2002 </dateFoundation> 
-<countEmployees>3765</countEmployees> 
-<auditor>KUKU CHACHA</auditor> 
-<phone>KUKU CHACHA</phone> 
-<email>KUKU CHACHA</email> 
-<branch>KUKU CHACHA</branch> 
-<activity>KUKU CHACHA</activity> 
-<link>KUKU CHACHA</link> 
-</Company>
- 
-<!--employees-->
- 
-<Company> 
-<name>MAC</name> 
-<shortTitle>MAC</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>USA/<address> 
-<dateFoundation>1993 </dateFoundation> 
-<countEmployees>56437</countEmployees> 
-<auditor> TOm FRank</auditor> 
-<phone> TOm FRank</phone> 
-<email> TOm FRank</email> 
-<branch> TOm FRank</branch> 
-<activity> TOm FRank</activity> 
-<link> TOm FRank</link> 
-</Company>
- 
-<Company> 
-<name>NYX</name> 
-<shortTitle>NYX</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>UK/<address> 
-<dateFoundation>1995 </dateFoundation> 
-<countEmployees>65785</countEmployees> 
-<auditor> HElix Fox</auditor> 
-<phone> HElix Fox</phone> 
-<email> HElix Fox</email> 
-<branch> HElix Fox</branch> 
-<activity> HElix Fox</activity> 
-<link> HElix Fox</link> 
-</Company>
- 
-<Company> 
-<name>KYLie</name> 
-<shortTitle>KYLie</shortTitle> 
-<dateUpdate>2022</dateUpdate> 
-<address>GERMAny/<address> 
+<address>GERMAny</address> 
 <dateFoundation>1999 </dateFoundation> 
 <countEmployees>18765</countEmployees> 
 <auditor>Kylie Jenner</auditor> 

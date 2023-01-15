@@ -1,3 +1,6 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.beans.XMLEncoder;
 import java.io.*;
 
 public class Readers {
@@ -38,6 +41,18 @@ public class Readers {
         }
     }
 
+    static FileOutputStream xmlFileOs;
+
+    static {
+        try {
+            xmlFileOs = new FileOutputStream("out.xml");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    static BufferedOutputStream xmlOutputStream = new BufferedOutputStream(xmlFileOs);
+
     static BufferedWriter xmlWrite = new BufferedWriter(file1xml);
     static FileWriter file1json;
 
@@ -47,6 +62,12 @@ public class Readers {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    static ObjectMapper objectMapper = new ObjectMapper();
+
+    public static void writeJson(Object o) throws IOException {
+        objectMapper.writeValue(file1json, o);
     }
 
     static BufferedWriter jsonWrite = new BufferedWriter(file1json);
@@ -62,6 +83,13 @@ public class Readers {
         Readers.jsonWrite.write(" ");
         Readers.jsonWrite.newLine();
     }
+
+    static XMLEncoder xmlEncoder = new XMLEncoder(xmlOutputStream);
+
+    public static void writeXml(Object o){
+        xmlEncoder.writeObject(o);
+    }
+
     public Readers() throws IOException {
     }
 }
